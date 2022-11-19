@@ -5,3 +5,11 @@ body{
  font-family:monospace;
  font-color:purble;
 }
+a {
+  color: #466995;
+  text-decoration: underline;
+}
+a:hover {
+    text-decoration: none;
+ color:blue;
+}
