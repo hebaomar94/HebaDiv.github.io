@@ -8,6 +8,7 @@ body{
 a {
   color: #466995;
   text-decoration: underline;
+  cursor: pointer;
 }
 a:hover {
     text-decoration: none;
