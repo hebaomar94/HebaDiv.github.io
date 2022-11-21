@@ -1,9 +1,12 @@
+
 body{
- background-color: purple;
+
  font-size:20px;
  font-weight:bold;
  font-family:monospace;
  font-color:purble;
+ display:inline;
+ text-align:center;
 }
 a {
   color: #466995;
@@ -14,16 +17,50 @@ a:hover {
   cursor: pointer;
   box-shadow: 0 0 10px;
   border-radius:3px;
+   background-color: blue;
+   font-style: italic;
+
+}
+.breadcrumb{
+  color:green;
 }
 .breadcrumb > li{
   display:inline;
+  color:green;
 }
 .breadcrumb li.attribute::before{
   content:" > ";
+   color:green;
 
 }
 .breadcrumb a:hover{
     text-decoration: underline;
     color:pink;
     font-weight: bold;
+}
+h1{
+  padding:40px;
+  margin:10px;
+ text-align:center;
+}
+p{
+   text-align:center;
+
+}
+table {
+  text-align:left;
+}
+table, tr {
+text-align:left;
+padding:20px;
+}
+img {
+  display: block;
+  max-width:230px;
+  max-height:95px;
+  width: auto;
+  height: auto;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
